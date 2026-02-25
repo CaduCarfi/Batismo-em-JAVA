@@ -14,5 +14,8 @@ public class DadosPrimitivos {
         boolean vivoOuMorto = true;
         Long saldoBancario = 9999999L;  // Valor máximo: 9,223,372,036,854,755,807
 
+        System.out.println(idade);      // Comando para mostrar para o usuario
+        System.out.println(saldoBancario);
+
     }
 }
