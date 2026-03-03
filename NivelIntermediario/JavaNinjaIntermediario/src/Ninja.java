@@ -9,9 +9,9 @@ public class Ninja {
     /*
     * O metodo VOID nao retorna valor nenhum
     * */
-    public void SharinganAtivado() {
-        System.out.println("Sharingan ativado");
-    }
+    //public void SharinganAtivado() {
+    //    System.out.println("Meu nome é " + nome + " O Sharingan Ativou, eu sou um Uchiha!");
+    //}
 
     /*
     * Metodo String vai ter que retornar uma String
