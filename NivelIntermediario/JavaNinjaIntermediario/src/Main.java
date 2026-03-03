@@ -16,6 +16,11 @@ public class Main {
 
         // Aplicando metodos aos meus Objetos
         sasuke.SharinganAtivado();
+        String chamandoMetodo = sasuke.euSouUmNinja();
+        System.out.println(chamandoMetodo);
+
+        int quantoTempoFalta = sasuke.anosParaSeTornarHokage(70);
+        System.out.println("Voce tem: " + sasuke.idade + " entao falta no minimo: " + quantoTempoFalta + " anos para se tornar Hokage");
 
         // Criar ninja Sakura Haruno - Sakura é um Objeto
 
