@@ -1,3 +1,5 @@
+package Herança;
+
 public class Hyuga extends Ninja{
 
     public void AtivarByakugan() {

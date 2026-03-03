@@ -1,3 +1,5 @@
+package Herança;
+
 public class Ninja {
 
     String nome;
@@ -10,14 +12,14 @@ public class Ninja {
     * O metodo VOID nao retorna valor nenhum
     * */
     //public void SharinganAtivado() {
-    //    System.out.println("Meu nome é " + nome + " O Sharingan Ativou, eu sou um Uchiha!");
+    //    System.out.println("Meu nome é " + nome + " O Sharingan Ativou, eu sou um Herança.Uchiha!");
     //}
 
     /*
     * Metodo String vai ter que retornar uma String
     * */
     public String euSouUmNinja() {
-        return "Oi, eu sou um Ninja!";
+        return "Oi, eu sou um Herança.Ninja!";
     }
 
     /*

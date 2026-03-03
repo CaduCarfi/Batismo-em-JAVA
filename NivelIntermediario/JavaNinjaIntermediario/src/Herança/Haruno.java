@@ -1,3 +1,5 @@
+package Herança;
+
 public class Haruno extends Ninja{
 
     public void AtivarCura() {

@@ -1,3 +1,5 @@
+package Herança;
+
 public class Uzumaki extends Ninja {
 
     public void ModoSabioAtivado() {
