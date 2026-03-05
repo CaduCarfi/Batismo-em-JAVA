@@ -1,6 +1,6 @@
 package Construtor;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
@@ -9,6 +9,8 @@ public class Hokages {
     int missoes;
     double saldoBancario;
     double altura;
+
+    public abstract void sabedoriaHokage();
 
     // No Args Constructor
     public Hokages() {
