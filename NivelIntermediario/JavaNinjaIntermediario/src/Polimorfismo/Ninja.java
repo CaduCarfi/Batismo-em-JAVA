@@ -5,6 +5,15 @@ public abstract class Ninja implements EstrategiaDeBatalhaNinja{
     int idade;
     String aldeia;
 
+    public Ninja() {
+    }
+
+    public Ninja(String nome, int idade, String aldeia) {
+        this.nome = nome;
+        this.aldeia = aldeia;
+        this.idade = idade;
+    }
+
     // Metodo Geral! Todos os ninjas vao ter
     public void habilidadeEspecial() {
         System.out.println("Meu nome é " + nome + " e esse é meu ataque especial!");
