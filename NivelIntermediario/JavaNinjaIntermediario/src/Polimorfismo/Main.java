@@ -27,5 +27,9 @@ public class Main {
         madara.inteligenciaDeCombate();
         // Metodo Sobrecarregado
         madara.inteligenciaDeCombate(180);
+
+        // Teste classe FINAL
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome  = "Ninja Aleatorio";
     }
 }
