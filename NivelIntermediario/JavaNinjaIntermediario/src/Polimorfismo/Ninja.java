@@ -15,6 +15,11 @@ public abstract class Ninja implements EstrategiaDeBatalhaNinja{
     public Ninja() {
     }
 
+    // TODO NINJA VAI FAZER OBRIGATORIAMENTE
+    final public void tacarKunai(){
+        System.out.println("EU SOU UM METODO DA CLASSE MAE!");
+    }
+
     // Metodo existente: Primeiro metodo
     public Ninja(String nome, int idade, String aldeia) {
         this.nome = nome;

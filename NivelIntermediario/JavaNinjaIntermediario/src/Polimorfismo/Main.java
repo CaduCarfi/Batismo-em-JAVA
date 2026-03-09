@@ -8,6 +8,7 @@ public class Main {
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", 18, "Aldeia da Folha", 25, NivelNinja.GENIN);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
+        naruto.tacarKunai();
 
         // Obj Uchiha
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", 18, "Aldeia da Folha", 20, NivelNinja.GENIN);
