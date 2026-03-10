@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Uchiha extends Ninja {
+public class Uchiha extends Ninja implements SharinganInterface {
 
     public Uchiha() {
         super();
@@ -41,5 +41,13 @@ public class Uchiha extends Ninja {
     @Override
     public void metodoProvisorio() {
         System.out.println("Teste na classe Uchiha");
+    }
+
+    /*
+    * Metodo:
+    * Implementa da interface Sharingan
+    * */
+    public void sharinganAtivado() {
+        System.out.println(nome + " Ativou o Sharingan!");
     }
 }

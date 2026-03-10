@@ -2,6 +2,9 @@ package Polimorfismo;
 
 public class Uzumaki extends Ninja {
 
+    Biju biju;
+
+
     public Uzumaki() {
         super();
     }
@@ -12,6 +15,11 @@ public class Uzumaki extends Ninja {
 
     public Uzumaki(String nome, int idade, String aldeia, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, idade, aldeia, numeroDeMissoesConcluidas, rank);
+    }
+
+    public Uzumaki(String nome, int idade, String aldeia, int numeroDeMissoesConcluidas, NivelNinja rank, Biju biju) {
+        super(nome, idade, aldeia, numeroDeMissoesConcluidas, rank);
+        this.biju = biju;
     }
 
     @Override
