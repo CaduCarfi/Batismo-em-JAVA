@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Array
-        // Sao estaticos, nuao alteram de tamanho
+        // Sao estaticos, nao alteram de tamanho
         String[] ninjasArray = new String[3];
         ninjasArray[0] = "Naruto";
         ninjasArray[1] = "Sasuke";
