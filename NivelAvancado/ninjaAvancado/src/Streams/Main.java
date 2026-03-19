@@ -16,7 +16,7 @@ public class Main {
         ninjas.add(new Ninja("Rock Lee", "Konoha", 57));
 
         // .stream
-        // filtragem dos ninjas por vila
+        // FILTER - filtragem dos ninjas por vila
         ninjas.stream()
                 .filter(ninja -> ninja.getVila().equals("Konoha"))
                 .forEach(System.out::println) // soutc
@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("=======================");
 
-        // ordenação
+        // SORTED - ordenação
         ninjas.stream()
                 .sorted((n1, n2) -> Integer.compare(n1.getIdade(), n2.getIdade()))
                 .forEach(System.out::println)
@@ -32,11 +32,31 @@ public class Main {
 
         System.out.println("=======================");
 
-        // ordenação por nome
+        // COMPARETO - ordenação por nome
         ninjas.stream()
                 .sorted((n1, n2) -> String.CASE_INSENSITIVE_ORDER.compare(n1.getNome(), n2.getNome()))
                 .forEach(System.out::println)
         ;
 
+        System.out.println("=======================");
+
+        // MAP - Mostrar e mapear atributos
+        ninjas.stream()
+                .map(Ninja::getNome)
+                .forEach(System.out::println)
+        ;
+
+        ninjas.stream()
+                .map(Ninja::getIdade)
+                .forEach(System.out::println)
+        ;
+
+        // MAX - Filtrar por ninja mais velho
+        Ninja ninjaMaisVelho = ninjas.stream()
+                .max((n1, n2) -> Integer.compare(n1.getIdade(), n2.getIdade()))
+                .orElse(null);
+        System.out.println("Ninja mais velho: " + ninjaMaisVelho);
+
+        ;
     }
 }
